@@ -1,0 +1,13 @@
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\bin\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.deps.json
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\bin\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\bin\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.pdb
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\bin\Debug\netcoreapp3.1\SG.Libraries.Models.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\bin\Debug\netcoreapp3.1\SG.Libraries.ORM.Interfaces.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\bin\Debug\netcoreapp3.1\SG.Libraries.Models.pdb
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\bin\Debug\netcoreapp3.1\SG.Libraries.ORM.Interfaces.pdb
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\obj\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.csprojAssemblyReference.cache
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\obj\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.AssemblyInfoInputs.cache
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\obj\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.AssemblyInfo.cs
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\obj\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.csproj.CopyComplete
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\obj\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.ORM.Impl\obj\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.pdb

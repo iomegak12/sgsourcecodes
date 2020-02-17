@@ -1,0 +1,11 @@
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\bin\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.deps.json
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\bin\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\bin\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.pdb
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\bin\Debug\netcoreapp3.1\SG.Libraries.Models.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\bin\Debug\netcoreapp3.1\SG.Libraries.Models.pdb
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\obj\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.csprojAssemblyReference.cache
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\obj\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.AssemblyInfoInputs.cache
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\obj\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.AssemblyInfo.cs
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\obj\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.csproj.CopyComplete
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\obj\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Interfaces\obj\Debug\netcoreapp3.1\SG.Libraries.Business.Interfaces.pdb

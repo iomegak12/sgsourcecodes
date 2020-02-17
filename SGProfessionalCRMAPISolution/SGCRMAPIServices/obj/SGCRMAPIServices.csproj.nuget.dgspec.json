@@ -1,0 +1,851 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SGCRMAPIServices\\SGCRMAPIServices.csproj": {}
+  },
+  "projects": {
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Impl\\SG.Libraries.API.Controllers.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Impl\\SG.Libraries.API.Controllers.Impl.csproj",
+        "projectName": "SG.Libraries.API.Controllers.Impl",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Impl\\SG.Libraries.API.Controllers.Impl.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Interfaces\\SG.Libraries.API.Controllers.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Interfaces\\SG.Libraries.API.Controllers.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Interfaces\\SG.Libraries.API.Controllers.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Interfaces\\SG.Libraries.API.Controllers.Interfaces.csproj",
+        "projectName": "SG.Libraries.API.Controllers.Interfaces",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Interfaces\\SG.Libraries.API.Controllers.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\SG.Libraries.Business.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\SG.Libraries.Business.Impl.csproj",
+        "projectName": "SG.Libraries.Business.Impl",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\SG.Libraries.Business.Impl.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj",
+        "projectName": "SG.Libraries.Business.Interfaces",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Impl\\SG.Libraries.Business.Validations.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Impl\\SG.Libraries.Business.Validations.Impl.csproj",
+        "projectName": "SG.Libraries.Business.Validations.Impl",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Impl\\SG.Libraries.Business.Validations.Impl.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj",
+        "projectName": "SG.Libraries.Business.Validations.Interfaces",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Impl\\SG.Libraries.DataAccess.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Impl\\SG.Libraries.DataAccess.Impl.csproj",
+        "projectName": "SG.Libraries.DataAccess.Impl",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Impl\\SG.Libraries.DataAccess.Impl.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj",
+        "projectName": "SG.Libraries.DataAccess.Interfaces",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj",
+        "projectName": "SG.Libraries.Models",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Impl\\SG.Libraries.ORM.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Impl\\SG.Libraries.ORM.Impl.csproj",
+        "projectName": "SG.Libraries.ORM.Impl",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Impl\\SG.Libraries.ORM.Impl.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj",
+        "projectName": "SG.Libraries.ORM.Interfaces",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SGCRMAPIServices\\SGCRMAPIServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SGCRMAPIServices\\SGCRMAPIServices.csproj",
+        "projectName": "SGCRMAPIServices",
+        "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SGCRMAPIServices\\SGCRMAPIServices.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SGCRMAPIServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Impl\\SG.Libraries.API.Controllers.Impl.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Impl\\SG.Libraries.API.Controllers.Impl.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Interfaces\\SG.Libraries.API.Controllers.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.API.Controllers.Interfaces\\SG.Libraries.API.Controllers.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\SG.Libraries.Business.Impl.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\SG.Libraries.Business.Impl.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Impl\\SG.Libraries.Business.Validations.Impl.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Impl\\SG.Libraries.Business.Validations.Impl.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Impl\\SG.Libraries.DataAccess.Impl.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Impl\\SG.Libraries.DataAccess.Impl.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Models\\SG.Libraries.Models.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Impl\\SG.Libraries.ORM.Impl.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Impl\\SG.Libraries.ORM.Impl.csproj"
+              },
+              "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj": {
+                "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.ORM.Interfaces\\SG.Libraries.ORM.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SG.Libraries.API.Controllers.Interfaces\SG.Libraries.API.Controllers.Interfaces.csproj" />
+    <ProjectReference Include="..\SG.Libraries.Business.Interfaces\SG.Libraries.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\SG.Libraries.Models\SG.Libraries.Models.csproj" />
+  </ItemGroup>
+
+</Project>

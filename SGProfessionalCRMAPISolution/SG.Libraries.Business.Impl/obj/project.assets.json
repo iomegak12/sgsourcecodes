@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SG.Libraries.Business.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SG.Libraries.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SG.Libraries.Business.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SG.Libraries.Business.Interfaces.dll": {}
+        }
+      },
+      "SG.Libraries.Business.Validations.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SG.Libraries.Business.Validations.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SG.Libraries.Business.Validations.Interfaces.dll": {}
+        }
+      },
+      "SG.Libraries.DataAccess.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SG.Libraries.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SG.Libraries.DataAccess.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SG.Libraries.DataAccess.Interfaces.dll": {}
+        }
+      },
+      "SG.Libraries.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SG.Libraries.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SG.Libraries.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SG.Libraries.Business.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../SG.Libraries.Business.Interfaces/SG.Libraries.Business.Interfaces.csproj",
+      "msbuildProject": "../SG.Libraries.Business.Interfaces/SG.Libraries.Business.Interfaces.csproj"
+    },
+    "SG.Libraries.Business.Validations.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../SG.Libraries.Business.Validations.Interfaces/SG.Libraries.Business.Validations.Interfaces.csproj",
+      "msbuildProject": "../SG.Libraries.Business.Validations.Interfaces/SG.Libraries.Business.Validations.Interfaces.csproj"
+    },
+    "SG.Libraries.DataAccess.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../SG.Libraries.DataAccess.Interfaces/SG.Libraries.DataAccess.Interfaces.csproj",
+      "msbuildProject": "../SG.Libraries.DataAccess.Interfaces/SG.Libraries.DataAccess.Interfaces.csproj"
+    },
+    "SG.Libraries.Models/1.0.0": {
+      "type": "project",
+      "path": "../SG.Libraries.Models/SG.Libraries.Models.csproj",
+      "msbuildProject": "../SG.Libraries.Models/SG.Libraries.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SG.Libraries.Business.Interfaces >= 1.0.0",
+      "SG.Libraries.Business.Validations.Interfaces >= 1.0.0",
+      "SG.Libraries.DataAccess.Interfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\iomeg\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\SG.Libraries.Business.Impl.csproj",
+      "projectName": "SG.Libraries.Business.Impl",
+      "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\SG.Libraries.Business.Impl.csproj",
+      "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+      "outputPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Impl\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj": {
+              "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Interfaces\\SG.Libraries.Business.Interfaces.csproj"
+            },
+            "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj": {
+              "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.Business.Validations.Interfaces\\SG.Libraries.Business.Validations.Interfaces.csproj"
+            },
+            "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj": {
+              "projectPath": "C:\\0-Azure\\Demonstrations\\SGProfessionalCRMAPISolution\\SG.Libraries.DataAccess.Interfaces\\SG.Libraries.DataAccess.Interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
