@@ -7,6 +7,9 @@ using System.Collections.Generic;
 
 namespace SG.Libraries.Business.Impl
 {
+    /// <summary>
+    /// Implementation of Customers Business Components 
+    /// </summary>
     public class CustomersBusinessComponent : ICustomersBusinessComponent
     {
         private const string INVALID_BUSINESS_DEPENDENCIES = "Invalid Business Component Dependencies Specified!";
@@ -15,7 +18,11 @@ namespace SG.Libraries.Business.Impl
         private ICustomersRepository customersRepository = default(ICustomersRepository);
         private IBusinessValidation<string> searchStringBusinessValidation = default(IBusinessValidation<string>);
 
-
+        /// <summary>
+        /// Implementation Constructor
+        /// </summary>
+        /// <param name="customersRepository">Dependency Cusotmers Repository Object</param>
+        /// <param name="searchStringBusinessValidation">Dependency Customers Validation Object</param>
         public CustomersBusinessComponent(ICustomersRepository customersRepository,
             IBusinessValidation<string> searchStringBusinessValidation)
         {
@@ -29,8 +36,16 @@ namespace SG.Libraries.Business.Impl
             this.searchStringBusinessValidation = searchStringBusinessValidation;
         }
 
+        /// <summary>
+        /// Cleanup of Internal Resources
+        /// </summary>
         public void Dispose() => this.customersRepository?.Dispose();
 
+        /// <summary>
+        /// Gets a specific customer record by business key
+        /// </summary>
+        /// <param name="customerBusinessKey">Customer Business Key</param>
+        /// <returns>Filtered Customer details</returns>
         public Customer GetCustomerDetails(int customerBusinessKey)
         {
             var validation = this.customersRepository != default(ICustomersRepository) &&
@@ -44,6 +59,11 @@ namespace SG.Libraries.Business.Impl
             return filteredCustomer;
         }
 
+        /// <summary>
+        /// Gets either all Customers or filtered Customers based on the parameter value.
+        /// </summary>
+        /// <param name="partialName">Optional Search String</param>
+        /// <returns>An array of customers either all of them or filtered.</returns>
         public IEnumerable<Customer> GetCustomers(string partialName = null)
         {
             var validation = this.customersRepository != default(ICustomersRepository);

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.Business.Validations.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.Business.Validations.Interfaces.IBusinessValidation`1">
+            <summary>
+            General Purpose contract for Business Validation
+            </summary>
+            <typeparam name="ModelType">Model for Validation</typeparam>
+        </member>
+        <member name="M:SG.Libraries.Business.Validations.Interfaces.IBusinessValidation`1.ApplyValidation(`0)">
+            <summary>
+            Contract Operation for applying validations
+            </summary>
+            <param name="modelType">Model Type Object</param>
+            <returns>Validation Result</returns>
+        </member>
+    </members>
+</doc>

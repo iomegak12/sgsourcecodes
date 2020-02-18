@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.Business.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.Business.Interfaces.ICustomersBusinessComponent">
+            <summary>
+            Contract for Business Components for Customers
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.Business.Interfaces.ICustomersBusinessComponent.GetCustomers(System.String)">
+            <summary>
+            Gets either all Customers or filtered Customers based on the parameter value.
+            </summary>
+            <param name="partialName">Optional Search String</param>
+            <returns>An array of customers either all of them or filtered.</returns>
+        </member>
+        <member name="M:SG.Libraries.Business.Interfaces.ICustomersBusinessComponent.GetCustomerDetails(System.Int32)">
+            <summary>
+            Gets a specific customer record by business key
+            </summary>
+            <param name="customerBusinessKey">Customer Business Key</param>
+            <returns>Filtered Customer details</returns>
+        </member>
+    </members>
+</doc>

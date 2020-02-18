@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SGCRMAPIServices</name>
+    </assembly>
+    <members>
+        <member name="T:SGCRMAPIServices.Program">
+            <summary>
+            Main Start Point of the Host
+            </summary>
+        </member>
+        <member name="M:SGCRMAPIServices.Program.Main(System.String[])">
+            <summary>
+            Main Entrypoint
+            </summary>
+            <param name="args">Main Cmdline Arguments</param>
+        </member>
+        <member name="M:SGCRMAPIServices.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            Creation of the Host
+            </summary>
+            <param name="args">Host Arguments</param>
+            <returns>Created Host</returns>
+        </member>
+        <member name="T:SGCRMAPIServices.Startup">
+            <summary>
+            REST API Host Startup Class
+            </summary>
+        </member>
+        <member name="M:SGCRMAPIServices.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Startup Constructor
+            </summary>
+            <param name="configuration">Configuration Object</param>
+        </member>
+        <member name="P:SGCRMAPIServices.Startup.Configuration">
+            <summary>
+            Configuration Property
+            </summary>
+        </member>
+        <member name="M:SGCRMAPIServices.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configuration of Dependency Services
+            </summary>
+            <param name="services">Service Collection to be Configure</param>
+        </member>
+        <member name="M:SGCRMAPIServices.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configuration of REST Services Host
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>

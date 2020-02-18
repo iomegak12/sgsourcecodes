@@ -4,10 +4,20 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Business.Impl\SG.Libraries.Business.Impl.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\SG.Libraries.Business.Interfaces\SG.Libraries.Business.Interfaces.csproj" />
     <ProjectReference Include="..\SG.Libraries.Business.Validations.Interfaces\SG.Libraries.Business.Validations.Interfaces.csproj" />
     <ProjectReference Include="..\SG.Libraries.DataAccess.Interfaces\SG.Libraries.DataAccess.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SG.Libraries.Business.Impl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

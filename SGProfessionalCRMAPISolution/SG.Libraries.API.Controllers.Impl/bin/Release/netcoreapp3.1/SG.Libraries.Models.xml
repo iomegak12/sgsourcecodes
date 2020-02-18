@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.Models</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.Models.Customer">
+            <summary>
+            Customer Model
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.Models.Customer.CustomerId">
+            <summary>
+            Customer Unique Identifier
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.Models.Customer.FullName">
+            <summary>
+            Customer Full Name
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.Models.Customer.Country">
+            <summary>
+            Country
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.Models.Customer.Email">
+            <summary>
+            Customer Contact Email
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.Models.Customer.Phone">
+            <summary>
+            Customer Contact Phone Number
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.Models.Customer.CreditLimit">
+            <summary>
+            Customers Credit Limit
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.Models.Customer.ActiveStatus">
+            <summary>
+            Active Status of the Customer
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.Models.Customer.Remarks">
+            <summary>
+            Customer Remarks
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.Models.Customer.ToString">
+            <summary>
+            Formatting of a Customer Model to a String
+            </summary>
+            <returns>Formatted String</returns>
+        </member>
+    </members>
+</doc>

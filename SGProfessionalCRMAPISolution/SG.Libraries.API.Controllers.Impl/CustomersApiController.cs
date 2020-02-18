@@ -8,13 +8,21 @@ using System.Diagnostics;
 
 namespace SG.Libraries.API.Controllers.Impl
 {
-    [Microsoft.AspNetCore.Mvc.Route("api/customers")]
+    /// <summary>
+    /// Customers API Controller Contract
+    /// </summary>
+    
+    [Route("api/customers")]
     [ApiController]
     public class CustomersApiController : ControllerBase, ICustomersApiController
     {
         private const string INVALID_CONTROLLER_DEPENDENCIES = "Invalid Customers API Controller Dependencies Specified!";
         private ICustomersBusinessComponent customersBusinessComponent = default(ICustomersBusinessComponent);
 
+        /// <summary>
+        /// API Controller Implementation Constructor
+        /// </summary>
+        /// <param name="customersBusinessComponent">Dependency Business Component</param>
         public CustomersApiController(ICustomersBusinessComponent customersBusinessComponent)
         {
             if (customersBusinessComponent == default(ICustomersBusinessComponent))
@@ -23,6 +31,11 @@ namespace SG.Libraries.API.Controllers.Impl
             this.customersBusinessComponent = customersBusinessComponent;
         }
 
+        /// <summary>
+        /// Gets a specific customer detail by customer business key
+        /// </summary>
+        /// <param name="customerId">Customer Business Key</param>
+        /// <returns>Filtered Customer Details</returns>
         [HttpGet]
         [Route("{customerId}")]
         public IActionResult GetCustomer(int customerId)
@@ -48,6 +61,11 @@ namespace SG.Libraries.API.Controllers.Impl
             return Ok(filteredCustomer);
         }
 
+        /// <summary>
+        /// Gets all Customer Records
+        /// </summary>
+        /// <returns>An array of customers</returns>
+
         [HttpGet]
         public IActionResult GetCustomers()
         {
@@ -70,6 +88,11 @@ namespace SG.Libraries.API.Controllers.Impl
             return Ok(customers);
         }
 
+        /// <summary>
+        /// Gets filtered Customers by name
+        /// </summary>
+        /// <param name="partialName">Search String</param>
+        /// <returns>An array of filtered customers</returns>
         [HttpGet]
         [Route("search/{partialName}")]
         public IActionResult GetCustomersByName(string partialName)

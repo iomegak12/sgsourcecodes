@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.Business.Impl</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.Business.Impl.CustomersBusinessComponent">
+            <summary>
+            Implementation of Customers Business Components 
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.Business.Impl.CustomersBusinessComponent.#ctor(SG.Libraries.DataAccess.Interfaces.ICustomersRepository,SG.Libraries.Business.Validations.Interfaces.IBusinessValidation{System.String})">
+            <summary>
+            Implementation Constructor
+            </summary>
+            <param name="customersRepository">Dependency Cusotmers Repository Object</param>
+            <param name="searchStringBusinessValidation">Dependency Customers Validation Object</param>
+        </member>
+        <member name="M:SG.Libraries.Business.Impl.CustomersBusinessComponent.Dispose">
+            <summary>
+            Cleanup of Internal Resources
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.Business.Impl.CustomersBusinessComponent.GetCustomerDetails(System.Int32)">
+            <summary>
+            Gets a specific customer record by business key
+            </summary>
+            <param name="customerBusinessKey">Customer Business Key</param>
+            <returns>Filtered Customer details</returns>
+        </member>
+        <member name="M:SG.Libraries.Business.Impl.CustomersBusinessComponent.GetCustomers(System.String)">
+            <summary>
+            Gets either all Customers or filtered Customers based on the parameter value.
+            </summary>
+            <param name="partialName">Optional Search String</param>
+            <returns>An array of customers either all of them or filtered.</returns>
+        </member>
+    </members>
+</doc>

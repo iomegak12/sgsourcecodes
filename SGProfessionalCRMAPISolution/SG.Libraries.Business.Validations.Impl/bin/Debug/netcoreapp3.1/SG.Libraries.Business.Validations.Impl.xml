@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.Business.Validations.Impl</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.Business.Validations.Impl.SearchStringBusinessValidation">
+            <summary>
+            General Purpose contract for Business Validation for Search Strings
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.Business.Validations.Impl.SearchStringBusinessValidation.ApplyValidation(System.String)">
+            <summary>
+            Contract Operation for applying search string validations
+            </summary>
+            <param name="modelType">Model Type Object</param>
+            <returns>Validation Result</returns>
+        </member>
+    </members>
+</doc>

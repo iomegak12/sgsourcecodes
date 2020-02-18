@@ -7,10 +7,19 @@ using System.Linq;
 
 namespace SG.Libraries.DataAccess.Impl
 {
+
+    /// <summary>
+    /// Implementation of Customers Repository Design Pattern
+    /// </summary>
     public class CustomersRepository : ICustomersRepository
     {
         private ICustomersContext customersContext = default(ICustomersContext);
 
+
+        /// <summary>
+        /// Implementation Constructor with ORM Context Dependencies
+        /// </summary>
+        /// <param name="customersContext">Customers Context Impl. Reference</param>
         public CustomersRepository(ICustomersContext customersContext)
         {
             if (customersContext == default(ICustomersContext))
@@ -19,8 +28,15 @@ namespace SG.Libraries.DataAccess.Impl
             this.customersContext = customersContext;
         }
 
+        /// <summary>
+        /// Cleanup of Internal Resources
+        /// </summary>
         public void Dispose() => this.customersContext?.Dispose();
 
+        /// <summary>
+        /// Operation for Fetching All Records
+        /// </summary>
+        /// <returns>All Records</returns>
         public IEnumerable<Customer> GetAllRecords()
         {
             var customersList = default(IEnumerable<Customer>);
@@ -31,6 +47,11 @@ namespace SG.Libraries.DataAccess.Impl
             return customersList;
         }
 
+        /// <summary>
+        /// Fetches customer records by matching name partially.
+        /// </summary>
+        /// <param name="partialName">Search String</param>
+        /// <returns>Matching Records</returns>
         public IEnumerable<Customer> GetCustomersByName(string partialName)
         {
             var filteredCustomersList = default(IEnumerable<Customer>);
@@ -46,6 +67,11 @@ namespace SG.Libraries.DataAccess.Impl
 
         }
 
+        /// <summary>
+        /// Operation for Fetching a record by Id
+        /// </summary>
+        /// <param name="entityKey">Business Key</param>
+        /// <returns>Matching Record</returns>
         public Customer GetRecord(int entityKey)
         {
             var filteredCustomer = default(Customer);

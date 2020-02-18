@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.ORM.Impl</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.ORM.Impl.CustomerEntityTypeConfiguration">
+            <summary>
+            OR Mapping Implementation for Customer Object and Customers Table
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.ORM.Impl.CustomerEntityTypeConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{SG.Libraries.Models.Customer})">
+            <summary>
+            Configuration Logic
+            </summary>
+            <param name="builder">Entyt Builder</param>
+        </member>
+        <member name="T:SG.Libraries.ORM.Impl.CustomersContext">
+            <summary>
+            Customers Specific Context Implementation for ORM
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.ORM.Impl.CustomersContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{SG.Libraries.ORM.Impl.CustomersContext})">
+            <summary>
+            Context Implementation Constructor
+            </summary>
+            <param name="dbContextOptions">Configured Db Context Object</param>
+        </member>
+        <member name="P:SG.Libraries.ORM.Impl.CustomersContext.Customers">
+            <summary>
+            Customers Entity Representation
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.ORM.Impl.CustomersContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            ORM Mapping with Classes and Relational Tables
+            </summary>
+            <param name="modelBuilder">Model Builder for ORM</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.DataAccess.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.DataAccess.Interfaces.ICustomersRepository">
+            <summary>
+            Contract for Customers Repository
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.DataAccess.Interfaces.ICustomersRepository.GetCustomersByName(System.String)">
+            <summary>
+            Fetches customer records by matching name partially.
+            </summary>
+            <param name="partialName">Search String</param>
+            <returns>Matching Records</returns>
+        </member>
+        <member name="T:SG.Libraries.DataAccess.Interfaces.IRepository`2">
+            <summary>
+            General Purpose contract for repository design patterns
+            </summary>
+            <typeparam name="Entity">Entity Reference</typeparam>
+            <typeparam name="EntityKey">Primary key of Entity</typeparam>
+        </member>
+        <member name="M:SG.Libraries.DataAccess.Interfaces.IRepository`2.GetAllRecords">
+            <summary>
+            Operation for Fetching All Records
+            </summary>
+            <returns>All Records</returns>
+        </member>
+        <member name="M:SG.Libraries.DataAccess.Interfaces.IRepository`2.GetRecord(`1)">
+            <summary>
+            Operation for Fetching a record by Id
+            </summary>
+            <param name="entityKey">Business Key</param>
+            <returns>Matching Record</returns>
+        </member>
+    </members>
+</doc>

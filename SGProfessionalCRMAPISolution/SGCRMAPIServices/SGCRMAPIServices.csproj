@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <ApplicationInsightsResourceId>/subscriptions/7293f3cb-5705-4319-a0cc-15472af46eed/resourcegroups/SGCRMAPIServices20200218060126ResourceGroup/providers/microsoft.insights/components/SGCRMAPIServices20200218060126</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\SGCRMAPIServices.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,7 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.12.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.TraceListener" Version="2.12.1" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +37,16 @@
     <ProjectReference Include="..\SG.Libraries.Models\SG.Libraries.Models.csproj" />
     <ProjectReference Include="..\SG.Libraries.ORM.Impl\SG.Libraries.ORM.Impl.csproj" />
     <ProjectReference Include="..\SG.Libraries.ORM.Interfaces\SG.Libraries.ORM.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SGCRMAPIServices.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 </Project>

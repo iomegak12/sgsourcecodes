@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.API.Controllers.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.API.Controllers.Interfaces.ICustomersApiController">
+            <summary>
+            Customers API Controller Contract
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Interfaces.ICustomersApiController.GetCustomers">
+            <summary>
+            Gets all Customer Records
+            </summary>
+            <returns>An array of customers</returns>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Interfaces.ICustomersApiController.GetCustomersByName(System.String)">
+            <summary>
+            Gets filtered Customers by name
+            </summary>
+            <param name="partialName">Search String</param>
+            <returns>An array of filtered customers</returns>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Interfaces.ICustomersApiController.GetCustomer(System.Int32)">
+            <summary>
+            Gets a specific customer detail by customer business key
+            </summary>
+            <param name="customerId">Customer Business Key</param>
+            <returns>Filtered Customer Details</returns>
+        </member>
+        <member name="T:SG.Libraries.API.Controllers.Interfaces.IHomeController">
+            <summary>
+            Home Controller Interface
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Interfaces.IHomeController.GetIndex">
+            <summary>
+            Index Page
+            </summary>
+            <returns>Home Content</returns>
+        </member>
+    </members>
+</doc>

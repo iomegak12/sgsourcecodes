@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "",
       "environmentVariables": {
         "CRMSystemDB": "ZGF0YSBzb3VyY2U9Ljtpbml0aWFsIGNhdGFsb2c9U0dUcmFpbmluZ0RCO3VzZXIgaWQ9c2E7cGFzc3dvcmQ9UHJlc3RpZ2U7",
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -21,7 +21,7 @@
     "SGCRMAPIServices": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

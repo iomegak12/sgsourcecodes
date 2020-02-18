@@ -1,0 +1,17 @@
+C:\0-Azure\Temp\SGProfessionalCRMAPISolution\SG.Libraries.Models\bin\Release\netcoreapp3.1\SG.Libraries.Models.deps.json
+C:\0-Azure\Temp\SGProfessionalCRMAPISolution\SG.Libraries.Models\bin\Release\netcoreapp3.1\SG.Libraries.Models.dll
+C:\0-Azure\Temp\SGProfessionalCRMAPISolution\SG.Libraries.Models\bin\Release\netcoreapp3.1\SG.Libraries.Models.pdb
+C:\0-Azure\Temp\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.AssemblyInfoInputs.cache
+C:\0-Azure\Temp\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.AssemblyInfo.cs
+C:\0-Azure\Temp\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.dll
+C:\0-Azure\Temp\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.pdb
+C:\0-Azure\Temp\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.csprojAssemblyReference.cache
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\bin\Release\netcoreapp3.1\SG.Libraries.Models.xml
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\bin\Release\netcoreapp3.1\SG.Libraries.Models.deps.json
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\bin\Release\netcoreapp3.1\SG.Libraries.Models.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\bin\Release\netcoreapp3.1\SG.Libraries.Models.pdb
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.csprojAssemblyReference.cache
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.AssemblyInfoInputs.cache
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.AssemblyInfo.cs
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.dll
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SG.Libraries.Models\obj\Release\netcoreapp3.1\SG.Libraries.Models.pdb

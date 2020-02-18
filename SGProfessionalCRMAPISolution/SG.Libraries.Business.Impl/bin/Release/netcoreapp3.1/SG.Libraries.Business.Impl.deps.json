@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SG.Libraries.Business.Impl/1.0.0": {
+        "dependencies": {
+          "SG.Libraries.Business.Interfaces": "1.0.0",
+          "SG.Libraries.Business.Validations.Interfaces": "1.0.0",
+          "SG.Libraries.DataAccess.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "SG.Libraries.Business.Impl.dll": {}
+        }
+      },
+      "SG.Libraries.Business.Interfaces/1.0.0": {
+        "dependencies": {
+          "SG.Libraries.Models": "1.0.0"
+        },
+        "runtime": {
+          "SG.Libraries.Business.Interfaces.dll": {}
+        }
+      },
+      "SG.Libraries.Business.Validations.Interfaces/1.0.0": {
+        "runtime": {
+          "SG.Libraries.Business.Validations.Interfaces.dll": {}
+        }
+      },
+      "SG.Libraries.DataAccess.Interfaces/1.0.0": {
+        "dependencies": {
+          "SG.Libraries.Models": "1.0.0"
+        },
+        "runtime": {
+          "SG.Libraries.DataAccess.Interfaces.dll": {}
+        }
+      },
+      "SG.Libraries.Models/1.0.0": {
+        "runtime": {
+          "SG.Libraries.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SG.Libraries.Business.Impl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SG.Libraries.Business.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SG.Libraries.Business.Validations.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SG.Libraries.DataAccess.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SG.Libraries.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.ORM.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.ORM.Interfaces.ICustomersContext">
+            <summary>
+            Customers Specific Context Interface for ORM
+            </summary>
+        </member>
+        <member name="P:SG.Libraries.ORM.Interfaces.ICustomersContext.Customers">
+            <summary>
+            Customers Entity Representation
+            </summary>
+        </member>
+    </members>
+</doc>

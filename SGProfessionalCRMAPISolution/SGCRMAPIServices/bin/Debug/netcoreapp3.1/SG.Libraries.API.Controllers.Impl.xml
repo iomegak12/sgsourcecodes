@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.API.Controllers.Impl</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.API.Controllers.Impl.CustomersApiController">
+            <summary>
+            Customers API Controller Contract
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Impl.CustomersApiController.#ctor(SG.Libraries.Business.Interfaces.ICustomersBusinessComponent)">
+            <summary>
+            API Controller Implementation Constructor
+            </summary>
+            <param name="customersBusinessComponent">Dependency Business Component</param>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Impl.CustomersApiController.GetCustomer(System.Int32)">
+            <summary>
+            Gets a specific customer detail by customer business key
+            </summary>
+            <param name="customerId">Customer Business Key</param>
+            <returns>Filtered Customer Details</returns>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Impl.CustomersApiController.GetCustomers">
+            <summary>
+            Gets all Customer Records
+            </summary>
+            <returns>An array of customers</returns>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Impl.CustomersApiController.GetCustomersByName(System.String)">
+            <summary>
+            Gets filtered Customers by name
+            </summary>
+            <param name="partialName">Search String</param>
+            <returns>An array of filtered customers</returns>
+        </member>
+        <member name="T:SG.Libraries.API.Controllers.Impl.HomeController">
+            <summary>
+            Home Controller Implementation
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.API.Controllers.Impl.HomeController.GetIndex">
+            <summary>
+            Default Index Page
+            </summary>
+            <returns>Simple Header</returns>
+        </member>
+    </members>
+</doc>

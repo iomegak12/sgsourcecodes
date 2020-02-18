@@ -4,8 +4,16 @@ using System.Linq;
 
 namespace SG.Libraries.Business.Validations.Impl
 {
+    /// <summary>
+    /// General Purpose contract for Business Validation for Search Strings
+    /// </summary>
     public class SearchStringBusinessValidation : IBusinessValidation<string>
     {
+        /// <summary>
+        /// Contract Operation for applying search string validations
+        /// </summary>
+        /// <param name="modelType">Model Type Object</param>
+        /// <returns>Validation Result</returns>
         public bool ApplyValidation(string modelType)
         {
             var minNoOfCharacters = 3;
