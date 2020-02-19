@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SG.Libraries.DataAccess.Impl</name>
+    </assembly>
+    <members>
+        <member name="T:SG.Libraries.DataAccess.Impl.CustomersRepository">
+            <summary>
+            Implementation of Customers Repository Design Pattern
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.DataAccess.Impl.CustomersRepository.#ctor(SG.Libraries.ORM.Interfaces.ICustomersContext)">
+            <summary>
+            Implementation Constructor with ORM Context Dependencies
+            </summary>
+            <param name="customersContext">Customers Context Impl. Reference</param>
+        </member>
+        <member name="M:SG.Libraries.DataAccess.Impl.CustomersRepository.Dispose">
+            <summary>
+            Cleanup of Internal Resources
+            </summary>
+        </member>
+        <member name="M:SG.Libraries.DataAccess.Impl.CustomersRepository.GetAllRecords">
+            <summary>
+            Operation for Fetching All Records
+            </summary>
+            <returns>All Records</returns>
+        </member>
+        <member name="M:SG.Libraries.DataAccess.Impl.CustomersRepository.GetCustomersByName(System.String)">
+            <summary>
+            Fetches customer records by matching name partially.
+            </summary>
+            <param name="partialName">Search String</param>
+            <returns>Matching Records</returns>
+        </member>
+        <member name="M:SG.Libraries.DataAccess.Impl.CustomersRepository.GetRecord(System.Int32)">
+            <summary>
+            Operation for Fetching a record by Id
+            </summary>
+            <param name="entityKey">Business Key</param>
+            <returns>Matching Record</returns>
+        </member>
+    </members>
+</doc>

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SG.Libraries.API.Controllers.Interfaces;
 using SG.Libraries.Business.Interfaces;
 using SG.Libraries.Models;
@@ -14,6 +15,7 @@ namespace SG.Libraries.API.Controllers.Impl
     
     [Route("api/customers")]
     [ApiController]
+    [Authorize]
     public class CustomersApiController : ControllerBase, ICustomersApiController
     {
         private const string INVALID_CONTROLLER_DEPENDENCIES = "Invalid Customers API Controller Dependencies Specified!";

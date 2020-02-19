@@ -1,0 +1,16 @@
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Debug\netcoreapp2.2\appsettings.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Debug\netcoreapp2.2\SimpleRESTServices.deps.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Debug\netcoreapp2.2\SimpleRESTServices.runtimeconfig.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Debug\netcoreapp2.2\SimpleRESTServices.runtimeconfig.dev.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Debug\netcoreapp2.2\SimpleRESTServices.dll
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Debug\netcoreapp2.2\SimpleRESTServices.pdb
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Debug\netcoreapp2.2\SimpleRESTServices.csprojAssemblyReference.cache
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Debug\netcoreapp2.2\SimpleRESTServices.RazorAssemblyInfo.cache
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Debug\netcoreapp2.2\SimpleRESTServices.RazorAssemblyInfo.cs
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Debug\netcoreapp2.2\SimpleRESTServices.AssemblyInfoInputs.cache
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Debug\netcoreapp2.2\SimpleRESTServices.AssemblyInfo.cs
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Debug\netcoreapp2.2\SimpleRESTServices.RazorTargetAssemblyInfo.cache
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Debug\netcoreapp2.2\SimpleRESTServices.dll
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Debug\netcoreapp2.2\SimpleRESTServices.pdb

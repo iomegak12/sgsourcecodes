@@ -1,0 +1,16 @@
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\appsettings.Development.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\appsettings.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\Properties\launchSettings.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\SimpleRESTServices.exe
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\SimpleRESTServices.deps.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\SimpleRESTServices.runtimeconfig.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\SimpleRESTServices.runtimeconfig.dev.json
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\SimpleRESTServices.dll
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\bin\Release\netcoreapp3.0\SimpleRESTServices.pdb
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Release\netcoreapp3.0\SimpleRESTServices.csprojAssemblyReference.cache
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Release\netcoreapp3.0\SimpleRESTServices.MvcApplicationPartsAssemblyInfo.cache
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Release\netcoreapp3.0\SimpleRESTServices.AssemblyInfoInputs.cache
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Release\netcoreapp3.0\SimpleRESTServices.AssemblyInfo.cs
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Release\netcoreapp3.0\SimpleRESTServices.RazorTargetAssemblyInfo.cache
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Release\netcoreapp3.0\SimpleRESTServices.dll
+C:\0-Azure\Demonstrations\SimpleRESTServices\SimpleRESTServices\obj\Release\netcoreapp3.0\SimpleRESTServices.pdb

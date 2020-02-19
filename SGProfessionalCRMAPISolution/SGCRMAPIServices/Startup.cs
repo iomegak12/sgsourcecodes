@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.ApplicationInsights.TraceListener;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -106,12 +107,23 @@ namespace SGCRMAPIServices
             });
 
 
+            services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            })
+            .AddJwtBearer(bearerOptions =>
+            {
+                bearerOptions.Authority = Environment.GetEnvironmentVariable("Authority");
+                bearerOptions.Audience = Environment.GetEnvironmentVariable("Audience");
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             services.AddMvc(options =>
-            {
-                options.EnableEndpointRouting = false;
-            });
+                {
+                    options.EnableEndpointRouting = false;
+                });
 
         }
 
@@ -134,6 +146,9 @@ namespace SGCRMAPIServices
             app.UseHsts();
 
             app.UseHttpsRedirection();
+
+            app.UseAuthentication();
+
             app.UseMvc();
         }
     }
