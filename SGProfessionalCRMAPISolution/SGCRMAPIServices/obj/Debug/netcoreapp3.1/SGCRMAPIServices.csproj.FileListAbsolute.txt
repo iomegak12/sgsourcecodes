@@ -208,11 +208,11 @@ C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\bin\Debu
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\bin\Debug\netcoreapp3.1\SG.Libraries.ORM.Impl.pdb
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\bin\Debug\netcoreapp3.1\SG.Libraries.ORM.Interfaces.pdb
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.csprojAssemblyReference.cache
-C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.MvcApplicationPartsAssemblyInfo.cs
-C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.MvcApplicationPartsAssemblyInfo.cache
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.AssemblyInfoInputs.cache
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.AssemblyInfo.cs
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.RazorTargetAssemblyInfo.cache
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.csproj.CopyComplete
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.dll
 C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.pdb
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.MvcApplicationPartsAssemblyInfo.cs
+C:\0-Azure\Demonstrations\SGProfessionalCRMAPISolution\SGCRMAPIServices\obj\Debug\netcoreapp3.1\SGCRMAPIServices.MvcApplicationPartsAssemblyInfo.cache

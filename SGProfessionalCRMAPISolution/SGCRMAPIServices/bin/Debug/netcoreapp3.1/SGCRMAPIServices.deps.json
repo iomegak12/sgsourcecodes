@@ -28,6 +28,7 @@
           "Microsoft.ApplicationInsights.TraceListener": "2.12.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10",
           "SG.Libraries.API.Controllers.Impl": "1.0.0",
           "SG.Libraries.API.Controllers.Interfaces": "1.0.0",
           "SG.Libraries.Business.Impl": "1.0.0",
@@ -1128,6 +1129,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.9.10": {},
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -4648,6 +4650,13 @@
       "sha512": "sha512-6SW0tpbJslc8LAY1XniRfLVcJa7bJUbbwvo2/ZRqfkMbJrsqIj9045vg3STtZhDhYRKhpYgjqGU11eeW4Pzyrg==",
       "path": "microsoft.openapi/1.1.4",
       "hashPath": "microsoft.openapi.1.1.4.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.9.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d5/5CDc4TAjrgO9oyyj+FHUDVumxgrlCMJqDtUX4GyTnr1Q/BP88PhnVunRZ9AQcL2UQkM4EkRNyFelPXunHtw==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.9.10",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.9.10.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",

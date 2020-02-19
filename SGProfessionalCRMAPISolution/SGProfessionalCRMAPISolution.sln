@@ -89,7 +89,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGCRMAPIServices", "SGCRMAP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ED4A5619-42C3-42B5-B2F3-C65965A64BC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGCRMAPIServices.Tests", "SGCRMAPIServices.Tests\SGCRMAPIServices.Tests.csproj", "{85931998-83C7-41F4-A99C-214A7F86CFB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGCRMAPIServices.Tests", "SGCRMAPIServices.Tests\SGCRMAPIServices.Tests.csproj", "{85931998-83C7-41F4-A99C-214A7F86CFB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{148F5DC2-7AFE-40C5-BB7C-A0AAF858D63F}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

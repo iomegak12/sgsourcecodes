@@ -4,5 +4,6 @@
     <NameOfLastUsedPublishProfile>iomegawebx303 - Web Deploy</NameOfLastUsedPublishProfile>
     <ShowAllFiles>false</ShowAllFiles>
     <AutoRefresh>false</AutoRefresh>
+    <ActiveDebugProfile>Docker</ActiveDebugProfile>
   </PropertyGroup>
 </Project>
