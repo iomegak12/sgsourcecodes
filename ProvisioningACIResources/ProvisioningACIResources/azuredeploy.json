@@ -1,0 +1,148 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "aciGroupName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name for the container group"
+      }
+    },
+    "image": {
+      "type": "string",
+      "metadata": {
+        "description": "Container image to deploy. Should be of the form accountName/imagename:tag for images stored in Docker Hub or a fully qualified URI for a private registry like the Azure Container Registry."
+      }
+    },
+    "port": {
+      "type": "string",
+      "metadata": {
+        "description": "Port to open on the container and the public IP address."
+      }
+    },
+    "cpuCores": {
+      "type": "string",
+      "metadata": {
+        "description": "The number of CPU cores to allocate to the container. Must be an integer."
+      }
+    },
+    "memoryInGb": {
+      "type": "string",
+      "metadata": {
+        "description": "The amount of memory to allocate to the container in gigabytes."
+      }
+    },
+    "location": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]",
+      "metadata": {
+        "description": "Location for all resources."
+      }
+    },
+    "restartPolicy": {
+      "type": "string",
+      "defaultValue": "always",
+      "metadata": {
+        "description": "The behavior of Azure runtime if container has stopped."
+      },
+      "allowedValues": [
+        "never",
+        "always",
+        "onfailure"
+      ]
+    },
+    "imageServerName": {
+      "type": "string"
+    },
+    "imageServerUserName": {
+      "type": "string"
+    },
+    "imageServerPassword": {
+      "type": "string"
+    },
+    "aspnetcore_urls": {
+      "type": "string"
+    },
+    "dbConnectionString": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    }
+  },
+  "variables": {},
+  "resources": [
+    {
+      "name": "[parameters('aciGroupName')]",
+      "type": "Microsoft.ContainerInstance/containerGroups",
+      "apiVersion": "2018-10-01",
+      "location": "[parameters('location')]",
+      "properties": {
+        "containers": [
+          {
+            "name": "[parameters('aciGroupName')]",
+            "properties": {
+              "image": "[parameters('image')]",
+              "environmentVariables": [
+                {
+                  "name": "ASPNETCORE_URLS",
+                  "value": "[parameters('aspnetcore_urls')]"
+                },
+                {
+                  "name": "CRMSystemDB",
+                  "value": "[parameters('dbConnectionString')]"
+                },
+                {
+                  "name": "Authority",
+                  "value": "[parameters('authority')]"
+                },
+                {
+                  "name": "Audience",
+                  "value": "[parameters('audience')]"
+                }
+              ],
+              "ports": [
+                {
+                  "port": "[parameters('port')]"
+                }
+              ],
+              "resources": {
+                "requests": {
+                  "cpu": "[parameters('cpuCores')]",
+                  "memoryInGb": "[parameters('memoryInGb')]"
+                }
+              }
+            }
+          }
+        ],
+        "imageRegistryCredentials": [
+          {
+            "server": "[parameters('imageServerName')]",
+            "username": "[parameters('imageServerUserName')]",
+            "password": "[parameters('imageServerPassword')]"
+          }
+        ],
+        "osType": "Linux",
+        "restartPolicy": "[parameters('restartPolicy')]",
+        "ipAddress": {
+          "type": "Public",
+          "ports": [
+            {
+              "protocol": "Tcp",
+              "port": "[parameters('port')]"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "outputs": {
+    "containerIPv4Address": {
+      "type": "string",
+      "value": "[reference(resourceId('Microsoft.ContainerInstance/containerGroups/', parameters('aciGroupName'))).ipAddress.ip]"
+    }
+  }
+}

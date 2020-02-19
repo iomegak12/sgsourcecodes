@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "aciGroupName": { "value": "iomegaciv10" },
+    "image": { "value": "iomegacr.azurecr.io/sgprofessionalrestservices:latest" },
+    "port": { "value": "80" },
+    "cpuCores": { "value": "1.0" },
+    "memoryInGb": { "value": "1.5" },
+    "imageServerName": { "value": "iomegacr.azurecr.io" },
+    "imageServerUserName": { "value": "iomegacr" },
+    "imageServerPassword": { "value": "C9lEgQ75CxRx=WJWayO+WCipOhHLNcGv" },
+    "aspnetcore_urls": { "value": "http://*:80" },
+    "dbConnectionString": { "value": "ZGF0YSBzb3VyY2U9aW9tZWdhc3Fsc2VydmVydjIwLmRhdGFiYXNlLndpbmRvd3MubmV0O3VzZXIgaWQ9aW9tZWdhYWRtaW47cGFzc3dvcmQ9UHJlc3RpZ2UxMjMkJC8/O2luaXRpYWwgY2F0YWxvZz1pb21lZ2FzcWxkYXRhYmFzZXYxMDs=" },
+    "authority": { "value": "https://login.microsoftonline.com/381a10df-8e85-43db-86e1-8893b075b027" },
+    "audience": { "value": "c70fe0b0-7c8f-4982-8fd7-c368f8c281eb" }
+  }
+}
